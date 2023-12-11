@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charSet="utf-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <title>Merry Xmas</title>
+    <meta name="description" content="Merry xmas"/>
+    <link rel="shortcut icon" href="https://cdn.djstomp.net/emojis/doggosaurus.png"/>
+    <style>
+        html, body { background-color: #000; }
+        pre code { display: block; overflow-x: auto; padding: 1em;}
+        code { padding: 3px 5px; color: #fdd; background: #000; }
+        div.container { 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -70%);
+    transform-origin: center;
+    background-color: black;
+    animation: breathe 10s ease-in-out infinite;
+}
+        @keyframes breathe {
+            0%, 100% { scale: 1; }
+            50% { scale: 1.1; }
+        }
+        @keyframes hueShift {
+            0%, 100% { filter: hue-rotate(0deg); }
+            50% { filter: hue-rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <pre><code role="code" class="hljs">
+  Merry Xmas .--~~,__
+:-....,-------`~~'._.'
+ `-,,,  ,_      ;'~U'
+  _,-' ,'`-__; '--.
+ (_/'~~      ''''(;
+        </code></pre>
+    </div>
+</body>
+</html>
